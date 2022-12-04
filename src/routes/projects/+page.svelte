@@ -1,5 +1,5 @@
 <script>
-	import ProjectItem from "../react-photo-gallery/+page.svelte";
+	import ProjectItem from "./react-photo-gallery/+page.svelte";
 	import ProjectNav from "./ProjectNav.svelte";
 
 </script>

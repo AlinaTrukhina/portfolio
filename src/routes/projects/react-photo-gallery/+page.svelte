@@ -32,7 +32,12 @@
 </script>
 
 <section class="projectReactGallery">
-    <h1>React Photo Gallery</h1>
+    <h1>React Photo Gallery</h1>    
+    
+    <a href="https://github.com/AlinaTrukhina/weekend-react-gallery">
+        Source Code on GitHub
+    </a>
+
     <p>This app shows photos in a beautiful gallery format, 
         where you can click on an image to display it description. 
         Clicking the description displays the image.
@@ -46,9 +51,6 @@
         the url and description and clicking submit photo.
     </p>
         
-    <a href="https://github.com/AlinaTrukhina/weekend-react-gallery">
-        Source Code on GitHub
-    </a>
     <div class="screen-capture">
         <h2>Demo</h2>
         <p>Click on video to play</p>
