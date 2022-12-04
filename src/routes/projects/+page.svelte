@@ -1,5 +1,6 @@
 <script>
-	import ProjectItem from "./ProjectItem.svelte";
+	import ProjectItem from "../react-photo-gallery/+page.svelte";
+	import ProjectNav from "./ProjectNav.svelte";
 
 </script>
 <svelte:head>
@@ -8,6 +9,5 @@
 </svelte:head>
 
 <section>
-	<h1>My Projects</h1>
-	<ProjectItem/>
+
 </section>
