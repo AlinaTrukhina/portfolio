@@ -1,7 +1,7 @@
 <script>
     import galleryrecording from '$lib/screenCaptures/galleryscreenrecording.mp4';
 
-// These values are bound to properties of the video
+    // These values are bound to properties of the video
 	let duration;
 	let paused = true;
 

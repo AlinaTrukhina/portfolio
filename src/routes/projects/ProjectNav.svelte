@@ -6,9 +6,14 @@
 
 <aside class="sidebar">
   <nav>
-    <a class="block" href="/projects/react-photo-gallery">React Photo Gallery</a>
+    <a class="block" href="/projects/react-photo-gallery">
+        React Photo Gallery
+    </a>
     <a class="block" href="/projects/react-redux-movie-gallery">
         React-Redux Movie Gallery
+    </a>
+    <a class="block" href="/projects/foraging-finds">
+        Foraging Finds
     </a>
   </nav>
 </aside>
