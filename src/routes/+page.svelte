@@ -1,5 +1,7 @@
 <script>
 	import alinaheadshot from '$lib/images/alinaheadshot.jpg';
+    import github from '$lib/images/github.svg';
+    import linkedin from '$lib/images/linkedin.svg';
 </script>
 
 <svelte:head>
@@ -10,9 +12,20 @@
 
 <section>
 	<!-- <h1>About Alina</h1> -->
+
 	<span class="heading-photo">
         <img src={alinaheadshot} alt="Alina" />
     </span>
+
+    <div class="social-links">
+        <p>Contact: </p>
+        <a href="https://github.com/AlinaTrukhina">
+            <img src={github} alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/alina-trukhina/">
+            <img src={linkedin} alt="LinkedIn">
+        </a>
+    </div>
 
     <article class="about-section">
         <p>
@@ -53,4 +66,16 @@ img {
     max-width: 30em;
     border-radius: 10px;
 }
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.social-links img {
+    width: 2em;
+    height: 2em;
+    padding-left: 1em;
+}
+
 </style>
