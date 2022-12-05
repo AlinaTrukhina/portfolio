@@ -9,5 +9,6 @@
 </svelte:head>
 
 <section>
-
+	<h4>Explore Recent Projects</h4>
+	<h5>These projects were created in the past 4 months.</h5>
 </section>

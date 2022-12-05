@@ -23,6 +23,7 @@
 
 <style>
 .sidebar {
+    position: relative;
     width: 20%;
 }
 nav {
@@ -33,8 +34,11 @@ nav {
 
 nav a {
     display: block;
-    height: 2em;
+    min-height: 2em;
+    vertical-align: center;
     border: 1px var(--color-theme-darkblue) solid;
+    border-radius: 5px;
+    font-weight: 500;
     color: var(--color-theme-pink);
     font-weight: 500;
     text-decoration: none;

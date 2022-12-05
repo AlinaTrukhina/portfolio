@@ -49,20 +49,23 @@
 
     <h3>Duration: 2 Week Sprint</h3>
 
-    <pre>
+    <p>
         Finding plants or mushrooms when you are out foraging is a joy! 
         However, remembering the spot you found that beautiful flush of chanterelles some time after can be frustrating. 
+    </p> 
+    <p>    
         This app lets foragers save their finds on a map along with a photo and a short journal entry. 
-    </pre>
+    </p>
 
-    <pre>
+    <p>
         Users can also explore other users finds or search for a specific mushroom on a map, and leave a comment on each entry. 
+    </p>    
+    <p>    
         All user entries can be viewed in a list, edited, or deleted.
-    </pre>
-    
+    </p>
     
     <section class="demo">
-        <h2>Demo</h2>
+        <h2>Demo videos</h2>
         <p>Click on video to play</p>
         <div class="screen-capture">
             <h3>Registration</h3>
