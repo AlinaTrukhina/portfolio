@@ -3,6 +3,7 @@
     import github from '$lib/images/github.svg';
     import linkedin from '$lib/images/linkedin.svg';
 	import Header from './Header.svelte';
+    import './styles.css'
 </script>
 
 <div class="app">

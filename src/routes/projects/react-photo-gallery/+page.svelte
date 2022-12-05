@@ -37,18 +37,19 @@
         Source Code on GitHub
     </a>
 
-    <p>This app shows photos in a beautiful gallery format, 
+    <pre>
+        This app shows photos in a beautiful gallery format, 
         where you can click on an image to display it description. 
         Clicking the description displays the image.
-    </p>
-    <p>
+    </pre>
+    <pre>
         You can also like any image by clicking the heart icon, 
         or delete it with the trash can icon.
-    </p>
-    <p>
+    </pre>
+    <pre>
         You can add your own photo to the gallery by entering 
         the url and description and clicking submit photo.
-    </p>
+    </pre>
         
     <div class="screen-capture">
         <h2>Demo</h2>

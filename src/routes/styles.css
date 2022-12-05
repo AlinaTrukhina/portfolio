@@ -1,0 +1,31 @@
+:root {
+    --color-theme-1: #ff3e00;
+	--color-theme-2: #40b3ff;
+    --color-theme-darkblue: #16213E;
+    --color-theme-blue: #0F3460;
+    --color-theme-purple: #533483;
+    --color-theme-pink: #E94560;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	background-attachment: fixed;
+	background-color: var(--color-theme-darkblue);
+}
+
+main {
+    padding: 1em;
+}
+
+h1, h2 {
+    color: var(--color-theme-pink);
+}
+
+footer {
+    color: var(--color-theme-pink);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}

@@ -37,18 +37,20 @@
         Source Code on GitHub
     </a>
 
-    <p>
+    <pre>
         This project focused on creating a responsive movie gallery website.
-    </p>
+    </pre>
 
-    <p>
+    <pre>
         The movie list will be shown on the main page. 
-        You can click on a movie to go to its details view - the details view will show the movie's genres and description.
-    </p>
+        You can click on a movie to go to its details view, and 
+        the details view will show the movie's genres and description.
+    </pre>
 
-    <p>
-        Add a movie to the list using the form. Select any number of genres for the film from the drop-down menu.
-    </p>
+    <pre>
+        Add a movie to the list using the form. 
+        Select any number of genres for the film from the drop-down menu.
+    </pre>
 
     <div class="screen-capture">
         <h2>Demo</h2>
@@ -69,3 +71,9 @@
         {/each}
     </ul>
 </section>
+
+<style>
+video {
+    max-width: 500px;
+}
+</style>

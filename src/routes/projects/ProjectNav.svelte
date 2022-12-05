@@ -21,6 +21,23 @@
   </nav>
 </aside>
 
-<main>
-    <slot />
-</main>
+<style>
+.sidebar {
+    width: 20%;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-theme-blue);
+}
+
+nav a {
+    display: block;
+    height: 2em;
+    border: 1px var(--color-theme-darkblue) solid;
+    color: var(--color-theme-pink);
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0.5em;
+}
+</style>
