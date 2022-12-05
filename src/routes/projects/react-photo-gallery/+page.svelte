@@ -2,7 +2,6 @@
     import galleryrecording from '$lib/screenCaptures/galleryscreenrecording.mp4';
 
     // These values are bound to properties of the video
-	let duration;
 	let paused = true;
 
 	// Used to track time of last mouse down event
@@ -57,7 +56,6 @@
         <video src={galleryrecording}
 		on:mousedown={handleMousedown}
 		on:mouseup={handleMouseup}
-		bind:duration
 		bind:paused>
         <track kind="captions">
     </div>

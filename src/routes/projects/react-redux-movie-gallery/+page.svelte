@@ -2,7 +2,6 @@
     import reduxmoviesrecording from '$lib/screenCaptures/reduxmoviesscreenrecording.mp4';
 
     // These values are bound to properties of the video
-	let duration;
 	let paused = true;
 
 	// Used to track time of last mouse down event
@@ -15,7 +14,7 @@
 	}
 
 	function handleMouseup(e) {
-		if (new Date() - lastMouseDown < 300) {
+		if (new Date() - lastMouseDown < 3000) {
 			if (paused) e.target.play();
 			else e.target.pause();
 		}
@@ -57,7 +56,6 @@
         <video src={reduxmoviesrecording}
 		on:mousedown={handleMousedown}
 		on:mouseup={handleMouseup}
-		bind:duration
 		bind:paused>
         <track kind="captions">
     </div>
