@@ -13,7 +13,14 @@
     </main>
 
     <footer>
-        (c) 2022 Alina Trukhina
+        <p>(c) 2022 Alina Trukhina. Built with <a href="https://svelte.dev/">Svelte</a></p>
     </footer>
 </div>
 
+<style>
+
+p {
+    color: var(--color-theme-pink);
+}
+
+</style>
