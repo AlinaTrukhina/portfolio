@@ -17,8 +17,11 @@
         <img src={alinaheadshot} alt="Alina" />
     </span>
 
+
+
     <div class="social-links">
-        <p>Contact: </p>
+        <pre>Contact: </pre>
+        <a href="alina.trukhina@gmail.com"> Email</a>
         <a href="https://github.com/AlinaTrukhina">
             <img src={github} alt="GitHub">
         </a>
@@ -41,6 +44,10 @@
 </section>
 
 <style>
+pre {
+    font: 1em sans-serif;
+    color: var(--color-theme-pink);
+}
 
 section {
     display: flex;
@@ -48,7 +55,6 @@ section {
     align-items: center;
     border: 1px;
 }
-
 
 .about-section {
     width: 80vw;
