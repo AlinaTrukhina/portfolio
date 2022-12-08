@@ -5,7 +5,8 @@
 
 <section>
     <h1>Alina Trukhina</h1>
-    
+    <h2> Full Stack Software Developer</h2>
+
     <nav class="header-links">
         <ul>
             <li>
@@ -56,6 +57,10 @@ li {
 h1 {
     font-size: 2em;
     letter-spacing: 0.1em;
+    text-align: center;
+}
+
+h2 {
     text-align: center;
 }
 
