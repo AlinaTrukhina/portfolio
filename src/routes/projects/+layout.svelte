@@ -27,7 +27,7 @@ main {
     position: relative;
     width: 80vw;
     max-height: 80vh;
-    overflow: scroll;
+    overflow-y: scroll;
     background-color: var(--color-theme-blue);
     border: 1px var(--color-theme-darkblue) solid;
     border-radius: 5px;

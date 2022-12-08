@@ -23,7 +23,8 @@ h1, h2, h3, h4, h5 {
 }
 
 p, pre, li, a {
-    color: var(--color-theme-2);    
+    color: var(--color-theme-2);  
+    font-family: serif;  
 }
 
 video {

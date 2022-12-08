@@ -38,11 +38,10 @@ const techsUsed = [
     </a>
 
     <pre>
-        The challenge for this project was to implement a server side calculator.
-    </pre>
-    <pre>
-        The calculator interface mirrors an ordinary calculator.
-        The calculations are done on the server, and stored there until the user clears the inputs.
+The challenge for this project was to implement a server side calculator.
+
+The calculator interface mirrors an ordinary calculator.
+The calculations are done on the server, and stored there until the user clears the inputs.
     </pre>
 
     <div class="screen-capture">

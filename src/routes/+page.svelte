@@ -126,6 +126,7 @@ img {
 .tech-experience pre {
     font: 1.5em serif;
 }
+
 .tech-experience img {
     background-color: aliceblue;
     width: 2em;

@@ -38,17 +38,15 @@
     </a>
 
     <pre>
-        This app shows photos in a beautiful gallery format, 
-        where you can click on an image to display it description. 
-        Clicking the description displays the image.
-    </pre>
-    <pre>
-        You can also like any image by clicking the heart icon, 
-        or delete it with the trash can icon.
-    </pre>
-    <pre>
-        You can add your own photo to the gallery by entering 
-        the url and description and clicking submit photo.
+This app shows photos in a beautiful gallery format, 
+where you can click on an image to display it description. 
+Clicking the description displays the image.
+
+You can also like any image by clicking the heart icon, 
+or delete it with the trash can icon.
+
+You can add your own photo to the gallery by entering 
+the url and description and clicking submit photo.
     </pre>
         
     <div class="screen-capture">

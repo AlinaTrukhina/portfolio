@@ -43,5 +43,6 @@ nav a {
     font-weight: 500;
     text-decoration: none;
     padding: 0.5em;
+    overflow-wrap: break-word;
 }
 </style>
