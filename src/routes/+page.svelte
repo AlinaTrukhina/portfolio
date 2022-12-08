@@ -21,7 +21,7 @@
 
     <div class="social-links">
         <pre>Contact: </pre>
-        <a href="alina.trukhina@gmail.com"> Email</a>
+        <a href="mailto: alina.trukhina@gmail.com"> Email</a>
         <a href="https://github.com/AlinaTrukhina">
             <img src={github} alt="GitHub">
         </a>
