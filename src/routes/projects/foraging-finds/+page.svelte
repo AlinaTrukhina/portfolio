@@ -60,6 +60,9 @@ Users can also explore other users finds or search for a specific mushroom on a 
 All user entries can be viewed in a list, edited, or deleted.
     </pre>
     
+    <h2>Foraging Finds website</h2>
+    <a href="https://foraging-finds.herokuapp.com/">Deployed version of the app</a>
+
     <section class="demo">
         <h2>Demo videos</h2>
         <p>Click on video to play</p>
