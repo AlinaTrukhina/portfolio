@@ -43,6 +43,8 @@
 <section>
     <h1>Foraging Finds</h1>
 
+    <h2 class=website-link><a href="https://foraging-finds.herokuapp.com/">Foraging Finds website</a></h2>
+    
     <a href="https://github.com/AlinaTrukhina/solo-project-foraging-finds">
         Source Code on GitHub
     </a>
@@ -59,9 +61,6 @@ Users can also explore other users finds or search for a specific mushroom on a 
   
 All user entries can be viewed in a list, edited, or deleted.
     </pre>
-    
-    <h2>Foraging Finds website</h2>
-    <a href="https://foraging-finds.herokuapp.com/">Deployed version of the app</a>
 
     <section class="demo">
         <h2>Demo videos</h2>
@@ -122,3 +121,18 @@ All user entries can be viewed in a list, edited, or deleted.
         {/each}
     </ul>
 </section>
+
+<style>
+
+.website-link a {
+    color: var(--color-theme-pink);
+    font-size: 0.9em;
+}
+
+.website-link a:hover {
+    background-color: var(--color-theme-purple);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+</style>
