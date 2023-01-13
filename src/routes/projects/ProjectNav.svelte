@@ -9,6 +9,9 @@
     <a class="block" href="/projects/foraging-finds">
         Foraging Finds
     </a>
+    <a class="block" href="/projects/womens-health-directory-vifi">
+        The ViFi, a Women's Health Directory
+    </a>
     <a class="block" href="/projects/react-photo-gallery">
         React Photo Gallery
     </a>

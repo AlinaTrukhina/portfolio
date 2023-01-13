@@ -18,7 +18,7 @@
 	}
 
 	function handleMouseup(e) {
-		if (new Date() - lastMouseDown < 3000) {
+		if (new Date() - lastMouseDown < 30000) {
 			if (paused) e.target.play();
 			else e.target.pause();
 		}
@@ -31,7 +31,7 @@
     'Node.js',
     'Express',
     'PostgreSQL',
-    'Passport',
+    'PassportJS',
     'Google Maps API',
     'Multer',
     'CSS',
@@ -43,9 +43,13 @@
 <section>
     <h1>Foraging Finds</h1>
 
-    <h2 class=website-link><a href="https://foraging-finds.herokuapp.com/">Foraging Finds website</a></h2>
+    <h2 class=website-link>
+        <a href="https://foraging-finds.herokuapp.com/" target="_blank" rel="noreferrer">
+        Foraging Finds website
+        </a>
+    </h2>
     
-    <a href="https://github.com/AlinaTrukhina/solo-project-foraging-finds">
+    <a href="https://github.com/AlinaTrukhina/solo-project-foraging-finds" target="_blank" rel="noreferrer">
         Source Code on GitHub
     </a>
 
