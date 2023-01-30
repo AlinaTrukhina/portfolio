@@ -1,4 +1,6 @@
 <script>
+    import Button from './Button.svelte';
+
 	import alinaheadshot from '$lib/images/alinaheadshot.jpg';
     import github from '$lib/images/github.svg';
     import linkedin from '$lib/images/linkedin.svg';
@@ -27,6 +29,9 @@
 
 <section>
 	<!-- <h1>About Alina</h1> -->
+    <Button>
+        Toggle light/dark
+    </Button>
 
 	<span class="heading-photo">
         <img src={alinaheadshot} alt="Alina" />
@@ -83,6 +88,18 @@
 </section>
 
 <style>
+:global(body) {
+	min-height: 100vh;
+	margin: 0;
+	background-attachment: fixed;
+	background-color: var(--color-theme-darkblue);
+}
+
+:global(body.light-mode) {
+		background-color: #8bcbff;
+		color: #22153c;
+	}
+
 pre {
     font: 1em sans-serif;
     color: var(--color-theme-pink);

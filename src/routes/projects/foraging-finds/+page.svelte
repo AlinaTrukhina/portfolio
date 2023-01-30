@@ -1,28 +1,22 @@
 <script>
+
     import ffregister from '$lib/screenCaptures/ffregister.mp4';
     import ffadd from '$lib/screenCaptures/ffadd.mp4';
     import ffmap from '$lib/screenCaptures/ffmap.mp4';
     import ffedit from '$lib/screenCaptures/ffedit.mp4';
     import ffsearch from '$lib/screenCaptures/ffsearch.mp4';
+    import ffimg from '$lib/images/foragingfindsimg.png';
 
-    // These values are bound to properties of the video
-	let paused = true;
+    const source = {ffregister};
+    const poster = {ffimg}
 
-	// Used to track time of last mouse down event
-	let lastMouseDown;
+    let paused = true;
 
-	// we can't rely on the built-in click event, because it fires
-	// after a drag — we have to listen for clicks ourselves
-	function handleMousedown(e) {
-		lastMouseDown = new Date();
+    function handleClick(e) {
+        if (paused) e.target.play();
+        else e.target.pause();
 	}
 
-	function handleMouseup(e) {
-		if (new Date() - lastMouseDown < 30000) {
-			if (paused) e.target.play();
-			else e.target.pause();
-		}
-	}
 
     const techsUsed = [
     'React',
@@ -48,10 +42,6 @@
         Foraging Finds website
         </a>
     </h2>
-    
-    <a href="https://github.com/AlinaTrukhina/solo-project-foraging-finds" target="_blank" rel="noreferrer">
-        Source Code on GitHub
-    </a>
 
     <h3>Duration: 2 Week Sprint</h3>
 
@@ -69,49 +59,46 @@ All user entries can be viewed in a list, edited, or deleted.
     <section class="demo">
         <h2>Demo videos</h2>
         <p>Click on video to play</p>
-        <div class="screen-capture">
-            <h3>Registration</h3>
-            <video src={ffregister}
-            on:mousedown={handleMousedown}
-            on:mouseup={handleMouseup}
-            bind:paused>
-            <track kind="captions">
-        </div>
-    
-        <div class="screen-capture">
-            <h3>Map</h3>
-            <video src={ffmap}
-            on:mousedown={handleMousedown}
-            on:mouseup={handleMouseup}
-            bind:paused>
-            <track kind="captions">
-        </div>    
+        <div class="demo-videos">
+            <div class="screen-capture">
+                <h3>Registration</h3>
+                <video src={ffregister}
+                on:click={handleClick}
+                >
+                <track kind="captions">
+            </div>
         
-        <div class="screen-capture">
-            <h3>Search</h3>
-            <video src={ffsearch}
-            on:mousedown={handleMousedown}
-            on:mouseup={handleMouseup}
-            bind:paused>
-            <track kind="captions">
-        </div>
-    
-        <div class="screen-capture">
-            <h3>Add Entry</h3>
-            <video src={ffadd}
-            on:mousedown={handleMousedown}
-            on:mouseup={handleMouseup}
-            bind:paused>
-            <track kind="captions">
-        </div>
-    
-        <div class="screen-capture">
-            <h3>Edit</h3>
-            <video src={ffedit}
-            on:mousedown={handleMousedown}
-            on:mouseup={handleMouseup}
-            bind:paused>
-            <track kind="captions">
+            <div class="screen-capture">
+                <h3>Map</h3>
+                <video src={ffmap}
+                on:click={handleClick}
+                >
+                <track kind="captions">
+            </div>    
+            
+            <div class="screen-capture">
+                <h3>Search</h3>
+                <video src={ffsearch}
+                on:click={handleClick}
+                >
+                <track kind="captions">
+            </div>
+        
+            <div class="screen-capture">
+                <h3>Add Entry</h3>
+                <video src={ffadd}
+                on:click={handleClick}
+                >
+                <track kind="captions">
+            </div>
+        
+            <div class="screen-capture">
+                <h3>Edit</h3>
+                <video src={ffedit}
+                on:click={handleClick}
+                >
+                <track kind="captions">
+            </div>
         </div>
     </section>
 
@@ -124,6 +111,11 @@ All user entries can be viewed in a list, edited, or deleted.
         </li>
         {/each}
     </ul>
+
+    <a href="https://github.com/AlinaTrukhina/solo-project-foraging-finds" target="_blank" rel="noreferrer">
+        Source Code on GitHub
+    </a>
+
 </section>
 
 <style>
@@ -137,6 +129,15 @@ All user entries can be viewed in a list, edited, or deleted.
     background-color: var(--color-theme-purple);
     padding: 5px;
     border-radius: 5px;
+}
+
+.demo-videos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.screen-capture {
+    margin: 1em;
 }
 
 </style>

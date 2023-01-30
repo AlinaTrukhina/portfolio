@@ -33,10 +33,6 @@
 <section class="projectReactGallery">
     <h1>React-Redux Movie Gallery</h1> 
 
-    <a href="https://github.com/AlinaTrukhina/weekend-challenge-movie-sagas">
-        Source Code on GitHub
-    </a>
-
     <pre>
 This project focused on creating a responsive movie gallery website.
 
@@ -66,9 +62,15 @@ Select any number of genres for the film from the drop-down menu.
         </li>
         {/each}
     </ul>
+
+    <a href="https://github.com/AlinaTrukhina/weekend-challenge-movie-sagas">
+        Source Code on GitHub
+    </a>
+    
 </section>
 
 <style>
+
 video {
     max-width: 500px;
 }

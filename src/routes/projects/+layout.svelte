@@ -9,7 +9,11 @@
     <ProjectNav/>
 
     <main>
-        <slot />
+        <slot>
+            <a class="block" href="/projects/foraging-finds">
+                Foraging Finds
+            </a>
+        </slot>
     </main>
 </div>
 

@@ -39,10 +39,6 @@ const techsUsed = [
         </a>
     </h2>
 
-    <a href="https://github.com/AlinaTrukhina/weekend-jquery-server-calculator">
-        Source Code on GitHub
-    </a>
-
     <pre>
 The challenge for this project was to implement a server side calculator.
 
@@ -67,10 +63,24 @@ The calculations are done on the server, and stored there until the user clears 
         </li>
         {/each}
     </ul>
+    
+    <a href="https://github.com/AlinaTrukhina/weekend-jquery-server-calculator">
+        Source Code on GitHub
+    </a>
 
 </section>
 
 <style>
+.website-link a {
+    color: var(--color-theme-pink);
+    font-size: 0.9em;
+}
+
+.website-link a:hover {
+    background-color: var(--color-theme-purple);
+    padding: 5px;
+    border-radius: 5px;
+}
 
 video {
     max-width: 400px;

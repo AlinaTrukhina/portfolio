@@ -44,10 +44,6 @@
             ViFi website
         </a>
     </h2>
-    
-        <a href="https://github.com/AlinaTrukhina/womens-health-app-ViFi" target="_blank" rel="noreferrer">
-            Source Code on GitHub
-        </a>
 
     <h3>Duration: 2 Week Sprint</h3>
 
@@ -89,6 +85,11 @@
         </li>
         {/each}
     </ul>
+
+    <a href="https://github.com/AlinaTrukhina/womens-health-app-ViFi" target="_blank" rel="noreferrer">
+        Source Code on GitHub
+    </a>
+    
 </section>
 
 <style>

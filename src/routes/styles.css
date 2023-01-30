@@ -1,18 +1,20 @@
 :root {
-    --color-theme-1: #ff3e00;
+    --color-theme-1: #ff4000be;
 	--color-theme-2: #40b3ff;
     --color-theme-darkblue: #16213E;
     --color-theme-blue: #0F3460;
     --color-theme-purple: #533483;
-    --color-theme-pink: #E94560;
+    --color-theme-pink: #ff7088;
 }
 
-body {
+/* #ff3e00 */
+
+/* body {
 	min-height: 100vh;
 	margin: 0;
 	background-attachment: fixed;
 	background-color: var(--color-theme-darkblue);
-}
+} */
 
 main {
     padding: 1em;

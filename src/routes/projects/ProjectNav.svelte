@@ -41,9 +41,8 @@ nav a {
     vertical-align: center;
     border: 1px var(--color-theme-darkblue) solid;
     border-radius: 5px;
-    font-weight: 500;
     color: var(--color-theme-pink);
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: none;
     padding: 0.5em;
     overflow-wrap: break-word;

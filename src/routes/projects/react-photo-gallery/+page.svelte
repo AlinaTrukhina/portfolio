@@ -39,10 +39,6 @@
         </a>
     </h2>
 
-    <a href="https://github.com/AlinaTrukhina/weekend-react-gallery">
-        Source Code on GitHub
-    </a>
-
     <pre>
 This app shows photos in a beautiful gallery format, 
 where you can click on an image to display it description. 
@@ -73,9 +69,23 @@ the url and description and clicking submit photo.
         {/each}
     </ul>
 
+    <a href="https://github.com/AlinaTrukhina/weekend-react-gallery">
+        Source Code on GitHub
+    </a>
+    
 </section>
 
 <style>
+.website-link a {
+    color: var(--color-theme-pink);
+    font-size: 0.9em;
+}
+
+.website-link a:hover {
+    background-color: var(--color-theme-purple);
+    padding: 5px;
+    border-radius: 5px;
+}
 
 video {
     max-width: 600px;
