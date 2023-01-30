@@ -29,16 +29,12 @@
 
 <section>
 	<!-- <h1>About Alina</h1> -->
-    <Button>
-        Toggle light/dark
-    </Button>
-
 	<span class="heading-photo">
         <img src={alinaheadshot} alt="Alina" />
     </span>
 
     <div class="social-links">
-        <pre>Contact: </pre>
+        <pre class="pink">Contact: </pre>
         <a href="mailto: alina.trukhina@gmail.com"> Email</a>
         <a href="https://github.com/AlinaTrukhina">
             <img src={github} alt="GitHub">
@@ -61,7 +57,7 @@
 
     <article class="tech-experience">
        
-            <pre>Skills </pre>
+            <h3>Skills </h3>
             <a href="https://html.spec.whatwg.org/multipage/">
                 <img src={html5} alt="HTML">
             </a>
@@ -88,20 +84,18 @@
 </section>
 
 <style>
-:global(body) {
-	min-height: 100vh;
-	margin: 0;
-	background-attachment: fixed;
-	background-color: var(--color-theme-darkblue);
+:global(article) {
+    background-color: var(--color-theme-blue);
 }
 
-:global(body.light-mode) {
-		background-color: #8bcbff;
-		color: #22153c;
-	}
-
-pre {
+:global(article.light-mode) {
+    background-color: #6db0e7;
+}
+p {
     font: 1em sans-serif;
+}
+
+.pink {
     color: var(--color-theme-pink);
 }
 
@@ -114,14 +108,9 @@ section {
 
 article {
     width: 80vw;
-    background-color: var(--color-theme-blue);
     border-radius: 10px;
     margin: 1em 0;
     padding: 1em;
-}
-
-p {
-    color: var(--color-theme-pink);
 }
 
 img {
@@ -140,8 +129,8 @@ img {
     padding-left: 1em;
 }
 
-.tech-experience pre {
-    font: 1.5em serif;
+.tech-experience h3{
+    margin-top: 0;
 }
 
 .tech-experience img {
