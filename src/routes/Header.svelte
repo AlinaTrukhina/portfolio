@@ -68,8 +68,8 @@ background-color: var(--color-theme-darkblue);
 
 .darkbutton {
     position: absolute;
-    top: 2em;
-    left: 2em;
+    top: 1em;
+    right: 1em;
 }
 
 nav {
