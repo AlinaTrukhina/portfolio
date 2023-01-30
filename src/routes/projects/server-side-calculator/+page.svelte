@@ -33,6 +33,12 @@ const techsUsed = [
 <section>
     <h1>Server-Side Calculator</h1>    
     
+    <h2 class=website-link>
+        <a href="https://server-side-calculator-ant.herokuapp.com/" target="_blank" rel="noreferrer">
+        Deployed version of the calculator
+        </a>
+    </h2>
+
     <a href="https://github.com/AlinaTrukhina/weekend-jquery-server-calculator">
         Source Code on GitHub
     </a>
