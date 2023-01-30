@@ -33,6 +33,12 @@
 <section class="projectReactGallery">
     <h1>React Photo Gallery</h1>    
     
+    <h2 class=website-link>
+        <a href="https://react-photo-gallery-ant.herokuapp.com/" target="_blank" rel="noreferrer">
+        Photo Gallery website
+        </a>
+    </h2>
+
     <a href="https://github.com/AlinaTrukhina/weekend-react-gallery">
         Source Code on GitHub
     </a>
