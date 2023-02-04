@@ -19,8 +19,4 @@
 
 <style>
 
-p {
-    color: var(--color-theme-pink);
-}
-
 </style>
