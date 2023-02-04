@@ -28,15 +28,15 @@ main {
     color: var(--color-theme-darkblue);
 }
 
-:global(p, pre, li, a) {
+p, pre, li, a {
     color: var(--color-theme-2);  
     font-family: serif;  
 }
 
-:global(p.light-mode, pre.light-mode, li.light-mode, a.light-mode) {
+/* :global(p.light-mode, pre.light-mode, li.light-mode, a.light-mode) {
     color: var(--color-theme-darkblue);  
     font-family: serif;  
-}
+} */
 
 video {
     max-height: 600px;

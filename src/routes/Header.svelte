@@ -6,9 +6,9 @@
 
 <section>
     <div class="darkbutton">
-        <Button>
+        <!-- <Button>
             Toggle light/dark
-        </Button>
+        </Button> -->
     </div>
 
     <h1>Alina Trukhina</h1>
