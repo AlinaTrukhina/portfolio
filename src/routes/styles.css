@@ -20,12 +20,21 @@ main {
     padding: 1em;
 }
 
-h1, h2, h3, h4, h5 {
+:global(body) h1, h2, h3, h4, h5 {
     color: var(--color-theme-pink);
 }
 
-p, pre, li, a {
+:global(body.light-mode) h1, h2, h3, h4, h5 {
+    color: var(--color-theme-darkblue);
+}
+
+:global(p, pre, li, a) {
     color: var(--color-theme-2);  
+    font-family: serif;  
+}
+
+:global(p.light-mode, pre.light-mode, li.light-mode, a.light-mode) {
+    color: var(--color-theme-darkblue);  
     font-family: serif;  
 }
 

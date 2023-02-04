@@ -47,4 +47,8 @@ nav a {
     padding: 0.5em;
     overflow-wrap: break-word;
 }
+
+:global(main .light-mode) {
+    background-color: var(--color-theme-blue);
+}
 </style>
