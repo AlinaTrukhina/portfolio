@@ -29,9 +29,9 @@
 
 <section>
 	<!-- <h1>About Alina</h1> -->
-    <Button>
+    <!-- <Button>
         Toggle light/dark
-    </Button>
+    </Button> -->
 
 	<span class="heading-photo">
         <img src={alinaheadshot} alt="Alina" />
