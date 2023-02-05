@@ -96,6 +96,7 @@ p {
 }
 
 .pink {
+    padding-right: 0.3em;
     color: var(--color-theme-pink);
 }
 
@@ -127,6 +128,7 @@ article {
 }
 
 .social-links{
+    margin-top: 1em;
     display: flex;
     flex-direction: row;
     align-items: center;
