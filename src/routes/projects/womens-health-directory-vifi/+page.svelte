@@ -36,6 +36,11 @@
 
 </script>
 
+<svelte:head>
+	<title>Women's Health Directory Web App</title>
+	<meta name="description" content="Women's Health Directory Web App" />
+</svelte:head>
+
 <section>
     <h1>Women's Health App - Vifi</h1>
 

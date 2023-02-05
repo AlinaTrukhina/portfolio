@@ -93,10 +93,6 @@ nav a {
     transition: color 0.2s linear;
 }
 
-nav a.light-mode {
-    color: var(--color-theme-darkblue);
-}
-
 a:hover {
     color: var(--color-theme-pink);
     text-decoration: underline;

@@ -30,6 +30,11 @@
 ]
 </script>
 
+<svelte:head>
+	<title>React Photo Gallery</title>
+	<meta name="description" content="React Photo Gallery" />
+</svelte:head>
+
 <section class="projectReactGallery">
     <h1>React Photo Gallery</h1>    
     

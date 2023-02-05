@@ -34,6 +34,11 @@
 
 </script>
 
+<svelte:head>
+	<title>Foraging Finds</title>
+	<meta name="description" content="Foraging Finds" />
+</svelte:head>
+
 <section>
     <h1>Foraging Finds</h1>
 

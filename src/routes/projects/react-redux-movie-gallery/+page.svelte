@@ -30,6 +30,11 @@
     ]
 </script>
 
+<svelte:head>
+	<title>React-Redux Movie Gallery</title>
+	<meta name="description" content="React-Redux Movie Gallery" />
+</svelte:head>
+
 <section class="projectReactGallery">
     <h1>React-Redux Movie Gallery</h1> 
 

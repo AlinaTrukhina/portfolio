@@ -70,6 +70,11 @@ The calculations are done on the server, and stored there until the user clears 
 
 </section>
 
+<svelte:head>
+	<title>Server Side Calculator</title>
+	<meta name="description" content="Server Side Calculator" />
+</svelte:head>
+
 <style>
 .website-link a {
     color: var(--color-theme-pink);

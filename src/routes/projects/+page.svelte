@@ -9,8 +9,8 @@
 
 </script>
 <svelte:head>
-	<title>Projects</title>
-	<meta name="description" content="My Projects" />
+	<title>Alina Trukhina's Projects</title>
+	<meta name="description" content="Alina Trukhina's Projects" />
 </svelte:head>
 
 <section class="projectsImgs">
