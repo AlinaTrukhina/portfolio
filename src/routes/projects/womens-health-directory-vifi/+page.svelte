@@ -52,13 +52,13 @@
 
     <h3>Duration: 2 Week Sprint</h3>
 
-    <pre>
+    <p>
         The ViFi is a women's health directory app built for our client, Laina Latterner. 
         Laina is an enterpreneur from Minneapolis, MN.
         This app is a collaborative effort from four engineers.
-    </pre>
+    </p>
 
-    <pre>
+    <p>
         The Vifi is our client Laina Latterner's solution to the challenges of women’s health. 
         The goal of the app is to educate and support our targeted users, mainly women, 
         with access to key info about health topics in easy, concise, 
@@ -66,7 +66,7 @@
         women can better advocate for themselves and feel more confident about their healthcare choices. 
         As a mobile webapp, the ViFi is designed to be accessible anytime, anywhere 
         as an educative resource so women can take hold of their healthcare.
-    </pre>
+    </p>
 
     <section class="demo">
         <h2>Demo videos</h2>

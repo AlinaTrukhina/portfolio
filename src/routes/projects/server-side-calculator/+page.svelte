@@ -39,12 +39,13 @@ const techsUsed = [
         </a>
     </h2>
 
-    <pre>
+    <p>
 The challenge for this project was to implement a server side calculator.
-
+    </p> 
+    <p>
 The calculator interface mirrors an ordinary calculator.
 The calculations are done on the server, and stored there until the user clears the inputs.
-    </pre>
+    </p>
 
     <div class="screen-capture">
         <h2>Demo</h2>

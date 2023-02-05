@@ -147,6 +147,8 @@ All user entries can be viewed in a list, edited, or deleted.
 .demo-videos {
     display: flex;
     flex-wrap: wrap;
+    margin-left: -1em;
+    margin-top: -1em;
 }
 
 .screen-capture {

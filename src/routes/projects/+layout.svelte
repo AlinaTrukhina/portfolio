@@ -28,7 +28,7 @@ h1 {
 }
 
 main {
-    width: 80vw;
+    max-width: 80vw;
     max-height: 80vh;
     overflow-x: scroll;
     overflow-y: scroll;
@@ -38,5 +38,10 @@ main {
     padding: 1em;
 }
 
-
+@media only screen and (min-width: 850px) {
+    main {
+        margin-right: 1em;
+        max-width: 75vw;
+    }
+}
 </style>

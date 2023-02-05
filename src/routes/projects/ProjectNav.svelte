@@ -51,4 +51,11 @@ nav a {
 :global(main .light-mode) {
     background-color: var(--color-theme-blue);
 }
+
+@media only screen and (min-width: 850px) {
+    nav {
+        margin-left: 1em;
+        max-width: 20vw;
+    }
+}
 </style>

@@ -38,16 +38,18 @@
 <section class="projectReactGallery">
     <h1>React-Redux Movie Gallery</h1> 
 
-    <pre>
+    <p>
 This project focused on creating a responsive movie gallery website.
-
+    </p>
+    <p>
 The movie list will be shown on the main page. 
 You can click on a movie to go to its details view, and 
 the details view will show the movie's genres and description.
-
+    </p>
+    <p>
 Add a movie to the list using the form. 
 Select any number of genres for the film from the drop-down menu.
-    </pre>
+    </p>
 
     <div class="screen-capture">
         <h2>Demo</h2>

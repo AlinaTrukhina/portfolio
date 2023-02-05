@@ -45,6 +45,7 @@ footer {
 
 video {
     border-radius: 5px;
+    margin: 0.2em;
 }
 
 /* Media query */
@@ -58,7 +59,7 @@ video {
 }
 
 [class*="recording"]{
-    max-width: 80vw;
+    max-width: 70vw;
 }
 
 @media only screen and (min-width: 850px) {
@@ -66,5 +67,6 @@ video {
     .heading-photo {max-width: 30em;}
     .recording {
         max-width: 500px;
+        max-height: 600px;
     }
 }
