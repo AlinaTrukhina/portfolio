@@ -27,10 +27,10 @@
 </svelte:head>
 
 
-<section>
+<section class="body">
 	<!-- <h1>About Alina</h1> -->
 	<span class="heading-photo">
-        <img src={alinaheadshot} alt="Alina" />
+        <img class="heading-photo-img" src={alinaheadshot} alt="Alina" />
     </span>
 
     <div class="social-links">
@@ -103,6 +103,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     border: 1px;
 }
 
@@ -113,9 +114,16 @@ article {
     padding: 1em;
 }
 
-img {
-    max-width: 30em;
-    border-radius: 10px;
+.heading-photo {
+    display: flex;
+    justify-content: center;
+}
+
+.heading-photo img {
+    /* max-width: 30em; */
+    /* margin: 1em;
+    padding: 1em; */
+    border-radius: 1.5em;
 }
 
 .social-links{
@@ -138,6 +146,7 @@ img {
     width: 2em;
     height: 2em;
     padding: 0.45em;
+    border-radius: 5px;
 }
 
 </style>

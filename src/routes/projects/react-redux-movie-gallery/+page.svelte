@@ -52,7 +52,8 @@ Select any number of genres for the film from the drop-down menu.
     <div class="screen-capture">
         <h2>Demo</h2>
         <p>Click on video to play</p>
-        <video src={reduxmoviesrecording}
+        <video class="recording"
+        src={reduxmoviesrecording}
 		on:mousedown={handleMousedown}
 		on:mouseup={handleMouseup}
 		bind:paused>
@@ -76,7 +77,4 @@ Select any number of genres for the film from the drop-down menu.
 
 <style>
 
-video {
-    max-width: 500px;
-}
 </style>

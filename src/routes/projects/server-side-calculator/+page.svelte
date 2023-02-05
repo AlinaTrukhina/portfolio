@@ -49,7 +49,8 @@ The calculations are done on the server, and stored there until the user clears 
     <div class="screen-capture">
         <h2>Demo</h2>
         <p>Click on video to play</p>
-        <video src={calculatorscreenrecording}
+        <video class="recording"
+        src={calculatorscreenrecording}
 		on:mousedown={handleMousedown}
 		on:mouseup={handleMouseup}
 		bind:paused>
@@ -87,7 +88,4 @@ The calculations are done on the server, and stored there until the user clears 
     border-radius: 5px;
 }
 
-video {
-    max-width: 400px;
-}
 </style>

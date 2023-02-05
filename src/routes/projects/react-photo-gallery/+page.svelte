@@ -59,7 +59,8 @@ the url and description and clicking submit photo.
     <div class="screen-capture">
         <h2>Demo</h2>
         <p>Click on video to play</p>
-        <video src={galleryrecording}
+        <video class="recording"
+        src={galleryrecording}
 		on:mousedown={handleMousedown}
 		on:mouseup={handleMouseup}
 		bind:paused>
@@ -92,7 +93,4 @@ the url and description and clicking submit photo.
     border-radius: 5px;
 }
 
-video {
-    max-width: 600px;
-}
 </style>

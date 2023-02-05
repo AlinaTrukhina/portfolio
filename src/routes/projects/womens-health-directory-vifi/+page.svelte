@@ -73,7 +73,8 @@
         <p>Click on video to play/pause</p>
         <div class="screen-capture">
             <h3>Registration</h3>
-            <video src={vifiadmincsv}
+            <video class="recording"
+            src={vifiadmincsv}
             on:mousedown={handleMousedown}
             on:mouseup={handleMouseup}
             bind:paused>
@@ -108,10 +109,6 @@
         background-color: var(--color-theme-purple);
         padding: 5px;
         border-radius: 5px;
-    }
-
-    .screen-capture > video {
-        max-width: 800px;
     }
     
     </style>

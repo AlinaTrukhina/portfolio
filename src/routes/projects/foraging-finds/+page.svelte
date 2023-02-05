@@ -50,16 +50,19 @@
 
     <h3>Duration: 2 Week Sprint</h3>
 
-    <pre>
+    <p>
 Finding plants or mushrooms when you are out foraging is a joy! 
 However, remembering the spot you found that beautiful flush of chanterelles some time after can be frustrating. 
-  
+    </p>
+    <p>
 This app lets foragers save their finds on a map along with a photo and a short journal entry. 
-
+    </p>
+    <p>
 Users can also explore other users finds or search for a specific mushroom on a map, and leave a comment on each entry. 
-  
+    </p>
+    <p>
 All user entries can be viewed in a list, edited, or deleted.
-    </pre>
+    </p>
 
     <section class="demo">
         <h2>Demo videos</h2>
@@ -67,7 +70,8 @@ All user entries can be viewed in a list, edited, or deleted.
         <div class="demo-videos">
             <div class="screen-capture">
                 <h3>Registration</h3>
-                <video src={ffregister}
+                <video class="recording"
+                src={ffregister}
                 on:click={handleClick}
                 >
                 <track kind="captions">
@@ -75,7 +79,8 @@ All user entries can be viewed in a list, edited, or deleted.
         
             <div class="screen-capture">
                 <h3>Map</h3>
-                <video src={ffmap}
+                <video class="recording"
+                src={ffmap}
                 on:click={handleClick}
                 >
                 <track kind="captions">
@@ -83,7 +88,8 @@ All user entries can be viewed in a list, edited, or deleted.
             
             <div class="screen-capture">
                 <h3>Search</h3>
-                <video src={ffsearch}
+                <video class="recording"
+                src={ffsearch}
                 on:click={handleClick}
                 >
                 <track kind="captions">
@@ -91,7 +97,8 @@ All user entries can be viewed in a list, edited, or deleted.
         
             <div class="screen-capture">
                 <h3>Add Entry</h3>
-                <video src={ffadd}
+                <video class="recording"
+                src={ffadd}
                 on:click={handleClick}
                 >
                 <track kind="captions">
@@ -99,7 +106,8 @@ All user entries can be viewed in a list, edited, or deleted.
         
             <div class="screen-capture">
                 <h3>Edit</h3>
-                <video src={ffedit}
+                <video class="recording"
+                src={ffedit}
                 on:click={handleClick}
                 >
                 <track kind="captions">

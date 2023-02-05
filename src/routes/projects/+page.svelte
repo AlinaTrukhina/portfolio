@@ -72,4 +72,6 @@ img {
 	margin: auto;
 }
 
+/* Media query */
+
 </style>

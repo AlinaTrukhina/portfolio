@@ -9,22 +9,19 @@
 
 /* #ff3e00 */
 
-/* body {
+body {
 	min-height: 100vh;
+    min-width: 100vw;
 	margin: 0;
 	background-attachment: fixed;
 	background-color: var(--color-theme-darkblue);
-} */
-
-main {
-    padding: 1em;
 }
 
-:global(body) h1, h2, h3, h4, h5 {
+:global(h1, h2, h3, h4, h5) {
     color: var(--color-theme-pink);
 }
 
-:global(body.light-mode) h1, h2, h3, h4, h5 {
+:global(h1.light-mode, h2.light-mode, h3.light-mode, h4.light-mode, h5.light-mode) {
     color: var(--color-theme-darkblue);
 }
 
@@ -33,13 +30,9 @@ p, pre, li, a {
     font-family: serif;  
 }
 
-/* :global(p.light-mode, pre.light-mode, li.light-mode, a.light-mode) {
+:global(p.light-mode, pre.light-mode, li.light-mode, a.light-mode) {
     color: var(--color-theme-darkblue);  
     font-family: serif;  
-} */
-
-video {
-    max-height: 600px;
 }
 
 footer {
@@ -48,4 +41,30 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+}
+
+video {
+    border-radius: 5px;
+}
+
+/* Media query */
+/* For mobile phones: */
+[class*="heading-photo"] {
+    width: 80%;
+}
+
+[class*="heading-photo-img"] {
+    width: 90%;
+}
+
+[class*="recording"]{
+    max-width: 80vw;
+}
+
+@media only screen and (min-width: 850px) {
+    /* For desktop: */
+    .heading-photo {max-width: 30em;}
+    .recording {
+        max-width: 500px;
+    }
 }
