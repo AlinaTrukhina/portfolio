@@ -58,8 +58,17 @@ video {
     width: 90%;
 }
 
-[class*="recording"]{
+[class*="recording"] {
     max-width: 70vw;
+}
+
+[class*="imgcard"] {
+    width: 90%;
+}
+
+[class*="projectImg"] {
+    max-width: 100%;
+	max-height: 100%;
 }
 
 @media only screen and (min-width: 850px) {
@@ -68,5 +77,14 @@ video {
     .recording {
         max-width: 500px;
         max-height: 600px;
+    }
+    .imgcard {
+        width: 400px;
+        height: 400px;
+    }
+
+    .projectImg {
+        max-width: 350px;
+        max-height: 350px;
     }
 }

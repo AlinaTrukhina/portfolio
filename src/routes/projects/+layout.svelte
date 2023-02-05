@@ -38,7 +38,7 @@ main {
     padding: 1em;
 }
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 768px) {
     main {
         margin-right: 1em;
         max-width: 75vw;
