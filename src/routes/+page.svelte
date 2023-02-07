@@ -18,6 +18,7 @@
     import svelte from '$lib/images/svelte.svg';
     import materialui from '$lib/images/materialui.svg';
     import googlemapsapi from '$lib/images/googlemapsapi.svg';
+    import resume from '$lib/Resume - Alina Trukhina.pdf';
 
 </script>
 
@@ -34,7 +35,7 @@
     </span>
 
     <div class="social-links">
-        <pre class="pink">Contact: </pre>
+        <p class="pink">Contact: </p>
         <a href="mailto: alina.trukhina@gmail.com"> Email</a>
         <a href="https://github.com/AlinaTrukhina">
             <img src={github} alt="GitHub">
@@ -42,6 +43,7 @@
         <a href="https://www.linkedin.com/in/alina-trukhina/">
             <img src={linkedin} alt="LinkedIn">
         </a>
+        <a href={resume} download="Resume - Alina Trukhina">Download Resume</a>
     </div>
 
     <article class="about-section">
@@ -127,7 +129,7 @@ article {
     border-radius: 1.5em;
 }
 
-.social-links{
+.social-links {
     margin-top: 1em;
     display: flex;
     flex-direction: row;
@@ -136,6 +138,9 @@ article {
 .social-links img {
     width: 2em;
     height: 2em;
+}
+
+.social-links a {
     padding-left: 1em;
 }
 
