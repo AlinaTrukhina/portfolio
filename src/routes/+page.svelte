@@ -48,12 +48,14 @@
 
     <article class="about-section">
         <p>
-            After a decade of working in the petrochemical industry, I wanted to apply my analytical problem-solving skills in a career in tech. I have always had an interest in software development and decided to dive in head first. 
+            After a decade of working in the petrochemical industry, 
+            I wanted to apply my analytical problem-solving skills in a career in tech, 
+            that would let me make a more positive social impact.
         <p>
-            Software development combines my love for puzzles and always learning new technologies.
+            Software development combines my love for puzzles and always learning new things.
         </p>
         <p>
-            My favorite hobby since the pandemic hit has been learning about native MN plants, foraging for plants, mushrooms, and going on long hikes.
+            When I'm not coding you could mind me hiking, foraging for plants, mushrooms, or reading science fiction.
         </p>
     </article>
 
