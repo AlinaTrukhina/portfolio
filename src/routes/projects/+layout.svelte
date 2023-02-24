@@ -32,6 +32,7 @@ main {
     max-height: 80vh;
     overflow-x: scroll;
     overflow-y: scroll;
+    scrollbar-color: var(--color-theme-blue);
     background-color: var(--color-theme-blue);
     border: 1px var(--color-theme-darkblue) solid;
     border-radius: 5px;
@@ -41,7 +42,7 @@ main {
 @media only screen and (min-width: 768px) {
     main {
         margin-right: 1em;
-        max-width: 75vw;
+        width: 80vw;
     }
 }
 </style>

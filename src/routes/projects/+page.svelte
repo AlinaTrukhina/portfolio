@@ -14,10 +14,14 @@
 </svelte:head>
 
 <section class="projectsImgs">
-	<!-- <h4>Explore My Recent Projects</h4>
-	<h5>Foragins Finds app is currently deployed - feel free to check out the link to the website.</h5> -->
+	<section>
+		<h4>Explore My Recent Projects</h4>
+		<br>
+		<h5>You may visit the deployed version of each project at the links provided</h5>
+	</section>
+	
 
-	<div class="imgcard">
+	<!-- <div class="imgcard">
 		<a href="/projects/foraging-finds">
 			<img class="projectImg" src={foragingfinds} alt='foraging finds'>
     	</a>
@@ -29,7 +33,7 @@
 	</div>
 	<div class="imgcard">
 		<a href="/projects/react-photo-gallery">
-			<!-- svelte-ignore a11y-img-redundant-alt -->
+			
 			<img class="projectImg" src={reactgallery} alt='react photo gallery'>
 		</a>
 	</div>
@@ -42,14 +46,16 @@
 		<a href="/projects/server-side-calculator">
 			<img class="projectImg" src={calculator} alt='server-side calculator'>
 		</a>
-	</div>
+	</div> -->
 </section>
 
 <style>
 
 .projectsImgs {
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
+
 }
 
 .imgcard {
