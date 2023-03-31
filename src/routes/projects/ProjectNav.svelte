@@ -15,11 +15,14 @@
     <a class="block" href="/projects/react-photo-gallery">
         React Photo Gallery
     </a>
-    <a class="block" href="/projects/react-redux-movie-gallery">
-        React-Redux Movie Gallery
-    </a>
     <a class="block"  href="/projects/server-side-calculator">
         Server-Side Calculator
+    </a>
+    <a class="block" href="/projects/cli-games">
+        Command Line Games
+    </a>
+    <a class="block" href="/projects/react-redux-movie-gallery">
+        React-Redux Movie Gallery
     </a>
   </nav>
 </aside>

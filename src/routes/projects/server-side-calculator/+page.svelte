@@ -26,7 +26,7 @@ const techsUsed = [
     'JavaScript',
     'jQuery',
     'Node.js',
-    ]
+]
 
 </script>
 

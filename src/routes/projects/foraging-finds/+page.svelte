@@ -17,7 +17,6 @@
         else e.target.pause();
 	}
 
-
     const techsUsed = [
     'React',
     'Redux',
