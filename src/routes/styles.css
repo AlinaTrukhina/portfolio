@@ -19,6 +19,8 @@ body {
 
 main {
     scrollbar-base-color: #0F3460;
+    min-height: 100vh;
+    min-width: 100vw;
 }
 
 :global(h1, h2, h3, h4, h5) {
@@ -29,7 +31,7 @@ main {
     color: var(--color-theme-darkblue);
 }
 
-p, pre, li, a {
+p, pre, li, a, footer {
     color: var(--color-theme-2);  
     font-family: serif;  
 }

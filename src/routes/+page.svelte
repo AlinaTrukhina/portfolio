@@ -49,13 +49,14 @@
     <article class="about-section">
         <p>
             After a decade of working in the petrochemical industry, 
-            I wanted to apply my analytical problem-solving skills in a career in tech, 
-            that would let me make a more positive social impact.
+            I wanted to apply my analytical problem-solving skills in a career
+             in tech, that would let me make a more positive social impact.
         <p>
             Software development combines my love for puzzles and always learning new things.
         </p>
         <p>
-            When I'm not coding you could mind me hiking, foraging for plants, mushrooms, or reading science fiction.
+            When I'm not coding you could mind me hiking, foraging for plants, mushrooms, 
+            or reading science fiction.
         </p>
     </article>
 

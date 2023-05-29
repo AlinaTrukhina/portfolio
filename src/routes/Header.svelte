@@ -35,6 +35,10 @@ background-attachment: fixed;
 background-color: var(--color-theme-darkblue);
 }
 
+section {
+    background-color: var(--color-theme-blue);
+}
+
 :global(body.light-mode) {
 		background-color: #8bcbff;
 		color: #22153c;

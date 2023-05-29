@@ -1,37 +1,59 @@
-<!-- // scripts -->
 <script>
-	import Gallery from "./react-photo-gallery/+page.svelte";
+  import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink,
+    Dropdown,
+    DropdownToggle,
+    DropdownMenu,
+    DropdownItem
+  } from 'sveltestrap';
+
+	import { Styles } from 'sveltestrap';
+	
+  let isOpen = false;
+
+  function handleUpdate(event) {
+    isOpen = event.detail.isOpen;
+  }
       
 </script>
 
-<aside class="sidebar">
-  <nav>    
-    <a class="block" href="/projects/foraging-finds">
-        Foraging Finds
-    </a>
-    <a class="block" href="/projects/womens-health-directory-vifi">
-        The ViFi, a Women's Health Directory
-    </a>
-    <a class="block" href="/projects/react-photo-gallery">
-        React Photo Gallery
-    </a>
-    <a class="block"  href="/projects/server-side-calculator">
-        Server-Side Calculator
-    </a>
-    <a class="block" href="/projects/cli-games">
-        Command Line Games
-    </a>
-    <a class="block" href="/projects/react-redux-movie-gallery">
-        React-Redux Movie Gallery
-    </a>
-  </nav>
-</aside>
+<Styles />
+
+<Navbar color="dark" dark expand="md">
+    <NavbarBrand href="/">Project List</NavbarBrand>
+    <NavbarToggler on:click={() => (isOpen = !isOpen)} />
+    <Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
+      <Nav class="ms-auto" navbar>
+        <NavItem>
+          <NavLink href="/projects/foraging-finds">Foraging Finds</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="/projects/womens-health-directory-vifi">The ViFi, a Women's Health Directory</NavLink>
+        </NavItem>
+        <NavItem>
+            <NavLink href="/projects/react-photo-gallery">React Photo Gallery</NavLink>
+        </NavItem>        
+        <NavItem>
+            <NavLink href="/projects/server-side-calculator">Server-Side Calculator</NavLink>
+        </NavItem>
+        <NavItem>
+            <NavLink href="/projects/react-redux-movie-gallery">React-Redux Movie Gallery</NavLink>
+        </NavItem>
+      </Nav>
+    </Collapse>
+</Navbar>
+
 
 <style>
-.sidebar {
-    position: relative;
-    width: 20%;
-}
+
+@import 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css';
+
 nav {
     display: flex;
     flex-direction: column;
@@ -55,10 +77,4 @@ nav a {
     background-color: var(--color-theme-blue);
 }
 
-@media only screen and (min-width: 850px) {
-    nav {
-        margin-left: 1em;
-        max-width: 20vw;
-    }
-}
 </style>

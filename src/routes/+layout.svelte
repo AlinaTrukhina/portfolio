@@ -18,5 +18,11 @@
 </div>
 
 <style>
+main, footer {
+    background-color: var(--color-theme-blue);
+}
 
+footer {
+    padding: 0.5em
+}
 </style>

@@ -19,8 +19,11 @@
 
 <style>
 
+@import 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css';
+
 .projects {
     display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -28,8 +31,8 @@ h1 {
 }
 
 main {
-    max-width: 80vw;
-    max-height: 80vh;
+    max-width: 100vw;
+    max-height: 100vh;
     overflow-x: scroll;
     overflow-y: scroll;
     scrollbar-color: var(--color-theme-blue);
